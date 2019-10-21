@@ -51,8 +51,6 @@ workflows:
             - saucelabs_devices: "\"deviceName=Google Pixel GoogleAPI Emulator,platformVersion=7.0\", \"deviceName=LG Nexus 4 GoogleAPI Emulator,platformVersion=4.4\""
             - saucelabs_video: true
             - test_framework: "espresso"
-            - exclude_tests: "class com.example.MyClass#testLogin"
-            - include_tests: "size large"
             - data_center: "eu-central-1"
 
       - script:
