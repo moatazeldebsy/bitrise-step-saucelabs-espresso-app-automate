@@ -10,7 +10,7 @@ app:
     - TEST_PATH: $TEST_PATH
     # If you want to share this step into a StepLib
     - BITRISE_STEP_ID: saucelabs-espresso-app-automate
-    - BITRISE_STEP_VERSION: "0.1.0"
+    - BITRISE_STEP_VERSION: "0.1.1"
     - BITRISE_STEP_GIT_CLONE_URL: https://github.com/moatazeldebsy/bitrise-step-saucelabs-espresso-app-automate.git
     - MY_STEPLIB_REPO_FORK_GIT_URL: https://github.com/moatazeldebsy/bitrise-steplib
 
