@@ -13,21 +13,20 @@ summary: |
   Upload an app apk and an Espresso test apk to SauceLabs and run tests with App Automate.
 description: |
   This step uploads a provided app apk and  test apk to SauceLabs.  It then will execute the Espresso Tests for the provided apks in SauceLabs app automate.
-website: https://github.com/moatazeldebsy/bitrise-step-browserstack-espresso-app-automate
-source_code_url: https://github.com/moatazeldebsy/bitrise-step-browserstack-espresso-app-automate
-support_url: https://github.com/moatazeldebsy/bitrise-step-browserstack-espresso-app-automate/issues
+website: https://github.com/moatazeldebsy/bitrise-step-saucelabs-espresso-app-automate
+source_code_url: https://github.com/moatazeldebsy/bitrise-step-saucelabs-espresso-app-automate
+support_url: https://github.com/moatazeldebsy/bitrise-step-saucelabs-espresso-app-automate/issues
 host_os_tags:
   - ubuntu-16.04
 
 project_type_tags:
   - android
-  - iOS
 
 # Type tags are used for categorizing steps, for easier step discovery in Step Libraries.
 # You can find more information about type tags in the Step Development Guideline:
 # https://github.com/bitrise-io/bitrise/blob/master/_docs/step-development-guideline.md
 type_tags:
-  - utility
+  - test
 
 is_requires_admin_user: true
 is_always_run: false
@@ -87,7 +86,7 @@ inputs:
         Set this parameter if you want to run tests only for particular annotations.
       description: |
           Set this parameter if you want to specify a Sauce Labs datacenter Options: "us-west-1" or "eu-central-1"
-      is_required: false
+      is_required: true
       is_expand: true
 
 
