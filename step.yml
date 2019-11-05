@@ -85,12 +85,6 @@ inputs:
       summary: |
         Set this parameter if you want to run tests only for particular annotations.
       description: |
-          Set this parameter if you want to specify a Sauce Labs datacenter Options: "us-west-1" or "eu-central-1"
+        Set this parameter if you want to specify a Sauce Labs datacenter Options: "us-west-1" or "eu-central-1"
       is_required: true
       is_expand: true
-
-
-
-
-
-
