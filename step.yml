@@ -78,13 +78,13 @@ inputs:
       is_expand: true
       is_required: true
 
-  - saucelabs_data_center:
+  - saucelabs_data_center: "eu-central-1"
     opts:
       title: SauceLabs Data Center
       category: Automated Test Options
       summary: |
         Set this parameter if you want to run tests only for particular annotations.
       description: |
-        Set this parameter if you want to specify a Sauce Labs datacenter Options: "us-west-1" or "eu-central-1"
+        Set this parameter if you want to specify a Sauce Labs datacenter Options: "us-west-1" , "eu-central-1"
       is_required: true
       is_expand: true
