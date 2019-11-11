@@ -1,6 +1,6 @@
-# bitrise-step-saucelabs-espresso-app-automate
+# bitrise-step-sauce-labs-espresso-app-automate
 
-This step uploads a provided app apk and test apk to SauceLabs. It then will execute the Espresso Tests for the provided apks in SauceLabs app automate.
+This step uploads a provided app apk and test apk to Sauce Labs. It then will execute the Espresso Tests for the provided apks in Sauce Labs app automate.
 
 
 ## How to use this Step
