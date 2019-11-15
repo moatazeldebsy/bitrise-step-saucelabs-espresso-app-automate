@@ -15,6 +15,8 @@ added to your `.bitrise.secrets.yml` file!*
 
 Step by step:
 
+Check the [Wiki](https://github.com/moatazeldebsy/bitrise-step-saucelabs-espresso-app-automate/wiki) page for more details
+
 1. Open up your Terminal / Command Line
 2. `git clone` the repository
 3. `cd` into the directory of the step (the one you just `git clone`d)
