@@ -55,14 +55,13 @@ inputs:
       title: SauceLabs username
       summary: Your username for saucelabs
       description: |
-
       is_expand: true
       is_required: true
       is_sensitive: true
   - saucelabs_access_key:
     opts:
       title: SauceLabs access key
-      summary: Your username for saucelabs
+      summary: Your access key for saucelabs
       description: |
       is_expand: true
       is_required: true
@@ -70,7 +69,6 @@ inputs:
   - saucelabs_device_name: ""
     opts:
       title: Device Name
-      category: Automated Test Options
       summary: The desired test device
       description: |
         The Device and OS version you want to run your tests on, with quotes. Acceptable format example: deviceName=Google Pixel GoogleAPI Emulator,platformVersion=7.0
@@ -81,7 +79,6 @@ inputs:
   - saucelabs_data_center: eu-central-1
     opts:
       title: SauceLabs Data Center
-      category: Automated Test Options
       summary: |
         Set this parameter if you want to run tests only for particular annotations.
       description: |
