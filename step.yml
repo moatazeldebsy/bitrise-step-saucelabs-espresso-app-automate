@@ -71,7 +71,7 @@ inputs:
       title: Device Name
       summary: The desired test device
       description: |
-        The Device and OS version you want to run your tests on, with quotes. Acceptable format example: deviceName=Google Pixel GoogleAPI Emulator,platformVersion=7.0
+        The Device and OS version you want to run your tests on, with quotes. Acceptable format example: Google Pixel GoogleAPI Emulator,platformVersion=7.0
         A list of available device and OS combinations can be found [here](https://saucelabs.com/platform/supported-browsers-devices)
       is_expand: true
       is_required: true
