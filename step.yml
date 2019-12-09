@@ -85,3 +85,6 @@ inputs:
         Set this parameter if you want to specify a Sauce Labs datacenter Options: "us-west-1" , "eu-central-1"
       is_expand: false
       is_required: true
+      value_options:
+        - "us-west-1"
+        - "eu-central-1"
